@@ -1,0 +1,21 @@
+
+			  Islamic Republic of Afghanistan
+				  Ministry of Afghanistan
+				  Deputy ministry of TVET
+	        	Computer Technology Inistitute
+				    December - ©2017
+
+==========================================================================================================================
+				   FATEMIA HIGH SCHOOL
+**************************************************************************************************************************
+
+ 			TO INSTALL FULLY PROJECT OF FATEMIA HIGH SCHOOL
+==========================================================================================================================
+
+1.INSTALL WAMPP
+2.THEN COPY FOLDER "fatemia_school" TO (C:\wampp\www)
+3.GO TO THE PHPMYADMIN CREAT DATABASE NAMED BY "school_mis"
+4.IMPORT "school_mis.sql" FROM FOLDER DATABASE
+5.FINALY GO TO YOUR BROWSER URL"http://localhost/fatemia_school"
+
+
