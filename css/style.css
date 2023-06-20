@@ -1,0 +1,194 @@
+
+* {
+	direction:rtl;
+}
+
+@font-face {
+	font-family: 'yekan';
+	src: url('../fonts/Yekan.eot?-wwn5ej');
+	src: url('../fonts/Yekan.eot?#iefix-wwn5ej') format('embedded-opentype'),
+	url('../fonts/Yekan.woff?-wwn5ej') format('woff'),
+	url('../fonts/Yekan.ttf?-wwn5ej') format('truetype'),
+	url('../fonts/Yekan.svg?-wwn5ej#icomoon') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+
+body { margin:0; padding:0; width:100%; background:#262626 }
+html { padding:0; margin:0; }
+/* main */
+.main { width:100%; padding:0; margin:0 auto; }
+/********** header **********/
+.header { background-color:#06475b; }
+.block_header { margin:0 auto; }
+/* logo */
+.logo { padding:0; min-height:115px; }
+/* search */
+.search { padding:0; min-height:33px; }
+.resize_menu { background:url(../images/bg_menu.gif) top no-repeat; margin:0; padding:0; height:56px; }
+
+/***************main_body******************/
+.main_body_resize { background:#e0e0e0; margin:0; padding:0; border-bottom:1px solid #fff; }
+.main_body { margin:0 auto 0 auto; padding:0; }
+.main_body img { margin:0; padding:0; }
+
+.menu {
+	position:relative;
+	z-index:9999; 
+}
+
+#nav-top>li>a {
+	padding-top:12px;
+	padding-bottom:12px;
+}
+
+/********** block index **********/
+.body_resize { border-top:1px solid #dadada; background:#fff; margin:0; padding:0; border-bottom:1px solid #d2d2d2; }
+.body { margin:0 auto; padding:0; }
+.body h2 { font:normal 24px Arial, Helvetica, sans-serif; color:#097a9a; padding:10px 0; margin:0; border-bottom:1px solid #e2e2e2; }
+.body h3 { font:bold 14px Arial, Helvetica, sans-serif; color:#2c2c2c; border-bottom:1px solid #d2d2d2; padding:10px 0; margin:0; }
+.body p { font:normal 11px Tahoma, Geneva, sans-serif; color:#414141; line-height:1.8em; }
+.body span { color:#898989; }
+.body a { color:#097a9a; }
+
+.Welcome { min-height:420px; padding:5px 30px 5px 10px; }
+
+/********** footer **********/
+.footer { background: url(../images/bg_footer.gif); padding:0; height:58px; margin:0; }
+.footer p { font:normal 11px Arial, Helvetica, sans-serif; color:#b0b0b0; padding:20px 0 0 0; margin:0; text-align:center; }
+.footer a { color:#b0b0b0; text-decoration:none; }
+p.clr,
+.clr { clear:both; padding:0; margin:0; background:none; }
+li.bg,
+.bg { clear:both; border-top:1px solid #e2e2e2; padding:0; margin:5px 0; background:none; }
+
+/* Custom Style */
+
+.input-group { 
+	margin-bottom:5px;
+}
+
+.glyphicon{
+	font-family:'Glyphicons Halflings' !important;
+}
+.glyphicon glyphicon-edit{
+	color:blue !important;
+}
+
+#sidebar{
+	min-height:300px;
+	border-left:1px solid #06C;
+	padding-top:20px;
+	
+}
+#sidebar a span{
+	padding-left:10px;
+}
+#sidebar a {
+	display:block;
+	width:100%;
+	margin-bottom:5px;
+	text-align:right;
+	color:white;
+	font-weight:bold;
+	font-size:16px;
+}
+
+#sidebar a .glyphicon {
+	color:white;
+}
+
+.table th {
+	background-color:#CCC !important;
+}
+
+div.button a {
+	text-decoration:none !important;
+}
+
+a.btn-primary {
+	font-weight:bold;
+	color:white;
+	font-size:16px;
+}
+
+a.btn .glyphicon {
+	color:white;
+	margin-left:5px;
+}
+
+button.btn {
+	font-weight:bold;
+	font-size:16px;
+}
+
+button .glyphicon {
+	color:white;
+}
+
+
+.myform-control {
+	border-top-right-radius:4px;
+	border-bottom-right-radius:4px;
+	border:1px solid #AAA;
+	padding:4px 10px;
+	vertical-align:bottom;
+}
+
+#paper_sheet p {
+	font-family:yekan !important;
+	font-size:18px !important;	
+}
+
+#paper_sheet h2 {
+	font-family:yekan !important;
+	margin:0 !important;
+	padding:0 !important;
+	margin-bottom:10px !important;
+	font-size:24px;
+}
+
+.printonly {
+	display:none;
+}
+
+@media print {
+	.noprint {
+		display:none;
+	}
+	.printonly {
+		display:inline;
+	}
+	.body_resize {
+		border:none;
+	}
+}
+
+table a span.glyphicon {
+	color:#06F !important;
+}
+
+.panel-heading h1 {
+	padding:0 !important;
+	margin:0;
+	font-size:25px;
+}
+
+#user_level div.input-group {
+	width:100%;
+}
+
+#user_level span.input-group-addon {
+	width:160px !important;
+}
+div.datetime1{
+	
+	height:30px;
+	
+	margin-right:200px;
+	color:white;
+	margin-top:-30px;
+	font-size:15px;
+
+}
